@@ -1,8 +1,10 @@
 JavaScript React Create Ref Demo
 ================================
 
-在当前的React中，使用字符串形式的`ref`已经不再推荐使用，替代品是传入一个function，
-以参数的形式拿到相应的component instance的值，保存起来供后续使用。
+`React.createRef`可以帮我们创建一个用于保存ref的对象，方便操作。
+
+它与`useRef`的区别在于，`createRef`每次都会创建一个新的对象，所以我们要把它保存在某个field中；
+而`useRef`内部会经过处理，使用同一个对象，常用于function component中。
 
 ```
 npm install

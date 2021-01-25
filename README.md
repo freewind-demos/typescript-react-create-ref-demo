@@ -1,6 +1,8 @@
 JavaScript React Create Ref Demo
 ================================
 
+注意：这个demo可能有问题？没看到`sayHello`被调用
+
 `React.createRef`可以帮我们创建一个用于保存ref的对象，方便操作。
 
 它与`useRef`的区别在于，`createRef`每次都会创建一个新的对象，所以我们要把它保存在某个field中；
